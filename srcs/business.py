@@ -1,20 +1,19 @@
 ''' This file contains the class business with the stuff to write in it'''
 from dataclasses import dataclass, asdict, field
+import os
+import pandas as pd
 
 @dataclass
 class Business:
     name: str = None
-
-    # Localisation
     address: str = None
-    postal_code : int = None
+    postal_code : str = None
     locality : str = None
     country : str = None
-
-    # Contact
     website: str = None
     language: str = None
     email: str = None
+    phone: str = None
 
 @dataclass
 class BusinessList:
