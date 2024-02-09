@@ -1,0 +1,6 @@
+output/
+Makefile
+Dockerfile
+.dockerignore
+.git/
+.gitignore
