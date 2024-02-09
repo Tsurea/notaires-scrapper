@@ -16,7 +16,7 @@ country_xpath : str = '//span[contains(@class, "country")]'
 
 website_xpath : str = '//div[contains(@class, "office-sheet__url")]//a'
 phone_xpath : str = '//div[contains(@class, "office-sheet__phone")]//a'
-language_xpath : str = '//div[contains(@class, "field-spoken-languages")]'
+language_xpath : str = '//div[contains(@class, "field-spoken-languages")]//div[contains(@class, "field__items")]'
 email_xpath : str = '//div[contains(@class, "office-sheet__email")]//a'
 
 # Employee info
